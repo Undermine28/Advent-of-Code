@@ -17,7 +17,6 @@ fn process1(game: &str) -> u32 {
     let green_max: u32 = 13;
     let blue_max: u32 = 14;
     
-
     // return true if any is invalid
     let is_not_valid_game =game.split(&[':', ';',','][..]) // returns an iterator for each bit in the line
     .any(|bit_of_text|{
